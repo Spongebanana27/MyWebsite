@@ -1,0 +1,23 @@
+
+.hobbyDescription{
+  width: 40%;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+}
+
+.guitarPicture{
+  display: inline-block;
+  height: 20rem;
+  vertical-align: middle;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+
+.hobbyList{
+  list-style-type: none;
+  padding-left: 0;
+  display: inline-block;
+  padding-right: 0;
+  vertical-align: middle;
+}

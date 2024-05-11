@@ -1,4 +1,5 @@
-import "./App.css";
+import "../Home.css";
+import "./Experience.css";
 import { useNavigate } from "react-router-dom";
 
 function Experience() {

@@ -1,5 +1,17 @@
-import "./App.css";
+import "../Home.css";
+import "./Projects.css";
 import { useNavigate } from "react-router-dom";
+
+import original from "../assets/ImgProcessing/Buddy.jpeg";
+import quantized from "../assets/ImgProcessing/Buddy.jpeg_Quantized_32.jpeg";
+import dithered from "../assets/ImgProcessing/dithered.png";
+import kuwahara from "../assets/ImgProcessing/kuwahara.png";
+import pixels from "../assets/ImgProcessing/pixels.png";
+import sharpened from "../assets/ImgProcessing/sharpened.5.png";
+
+import bigPerc from "../assets/Tiles/perc.25.png";
+import smallPerc from "../assets/Tiles/percSmall.png";
+
 function Projects() {
   const navigate = useNavigate();
   return (
@@ -25,6 +37,12 @@ function Projects() {
             Pixelation shaders in OpenGL
           </li>
         </ul>
+        <img src={original} className="buddyImage"></img>
+        <img src={kuwahara} className="buddyImage"></img>
+        <img src={quantized} className="buddyImage"></img>
+        <img src={dithered} className="buddyImage"></img>
+        <img src={pixels} className="buddyImage"></img>
+        <img src={sharpened} className="buddyImage"></img>
       </div>
       <div className="projectCard">
         <h2 className="projectHeader">Legend of Zelda NES - C# / .NET / Git</h2>
@@ -55,6 +73,8 @@ function Projects() {
             game
           </li>
         </ul>
+        <img src={bigPerc} className="percPicture"></img>
+        <img src={smallPerc} className="percPicture"></img>
       </div>
       <div className="projectCard">
         <h2 className="projectHeader">Student Grade Management Software - C</h2>

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Home.css";
 import { useNavigate } from "react-router-dom";
 function Photos() {
   const navigate = useNavigate();

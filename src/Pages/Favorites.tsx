@@ -1,24 +1,25 @@
-import "./App.css";
+import "../Home.css";
+import "./Favorites.css";
 
 import { useNavigate } from "react-router-dom";
 
-import scruggs from "./assets/busterScruggs.png";
-import baby from "./assets/babyDriver.png";
-import french from "./assets/frenchDispatch.png";
-import hateful from "./assets/theHatefulEight.png";
-import whiplash from "./assets/whiplash.png";
+import scruggs from "../assets/busterScruggs.png";
+import baby from "../assets/babyDriver.png";
+import french from "../assets/frenchDispatch.png";
+import hateful from "../assets/theHatefulEight.png";
+import whiplash from "../assets/whiplash.png";
 
-import darkSide from "./assets/darkSide.png";
-import jimi from "./assets/jimi.png";
-import nirvana from "./assets/nirvana.png";
-import pilgrim from "./assets/pilgrim.png";
-import brown from "./assets/brownBird.png";
+import darkSide from "../assets/darkSide.png";
+import jimi from "../assets/jimi.png";
+import nirvana from "../assets/nirvana.png";
+import pilgrim from "../assets/pilgrim.png";
+import brown from "../assets/brownBird.png";
 
-import itysl from "./assets/ITYSL.png";
-import cher from "./assets/chernobyl.png";
-import smiling from "./assets/smiling.png";
-import mg from "./assets/midnight.png";
-import bb from "./assets/breakingBad.png";
+import itysl from "../assets/ITYSL.png";
+import cher from "../assets/chernobyl.png";
+import smiling from "../assets/smiling.png";
+import mg from "../assets/midnight.png";
+import bb from "../assets/breakingBad.png";
 
 function Favorites() {
   const navigate = useNavigate();

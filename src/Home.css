@@ -42,6 +42,7 @@ Button Colors: #1a1a1a;
   display: inline-block;
 }
 
+
 .favoritesPicture{
   width: 12rem;
   border-radius: 5%;
@@ -49,38 +50,6 @@ Button Colors: #1a1a1a;
   vertical-align: middle;
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.guitarPicture{
-  display: inline-block;
-  height: 20rem;
-  vertical-align: middle;
-  margin-left: 2rem;
-  margin-right: 2rem;
-
-}
-
-.projectList {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.hobbyList{
-  list-style-type: none;
-  padding-left: 0;
-  display: inline-block;
-  padding-right: 0;
-  vertical-align: middle;
-}
-
-.experienceList{
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.resume{
-  width: 50rem;
-  margin-top: 2rem;
 }
 
 .mainPicture:hover{

@@ -1,10 +1,10 @@
-import App from "./App.tsx";
-import Hobbies from "./Hobbies.tsx";
-import Resume from "./Resume.tsx.tsx";
-import Projects from "./Projects.tsx";
+import Home from "./Home.tsx";
+import Hobbies from "./Pages/Hobbies.tsx";
+import Resume from "./Pages/Resume.tsx";
+import Projects from "./Pages/Projects.tsx";
 import Photos from "./Photos.tsx";
-import Experience from "./Experience.tsx";
-import Favorites from "./Favorites.tsx";
+import Experience from "./Pages/Experience.tsx";
+import Favorites from "./Pages/Favorites.tsx";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -12,7 +12,7 @@ function Routing() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Hobbies" element={<Hobbies />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Resume" element={<Resume />} />

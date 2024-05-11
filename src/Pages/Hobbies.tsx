@@ -1,6 +1,7 @@
-import "./App.css";
-import gin from "./assets/gin.png";
-import strat from "./assets/strat.png";
+import "../Home.css";
+import "./Hobbies.css";
+import gin from "../assets/gin.png";
+import strat from "../assets/strat.png";
 import { useNavigate } from "react-router-dom";
 function Hobbies() {
   const navigate = useNavigate();

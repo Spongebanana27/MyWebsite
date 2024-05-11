@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import "./App.css";
+import "./Home.css";
 import nickPic3 from "./assets/nickPic3.png";
 import nickPic1 from "./assets/nickPic4.png";
 import nickPic2 from "./assets/nickPic2.png";
 
-function App() {
+function Home() {
   let navigate = useNavigate();
 
   return (
@@ -16,7 +16,7 @@ function App() {
       <p className="paragraph">
         Nick Evans is a 21 year old student at The Ohio State University,
         persuing a Bachelors degree in Computer Science & Engineering with a
-        minor in Mathematic, currently a Software Development Intern at IGS
+        minor in Mathematics, currently a Software Development Intern at IGS
         Energy.
       </p>
       <div className="panelContainer">
@@ -81,4 +81,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
