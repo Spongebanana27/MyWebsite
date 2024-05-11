@@ -11,9 +11,7 @@ function Hobbies() {
       <div className="hobbyCard">
         <h2 className="hobbyHeader">Guitar</h2>
         <p className="hobbyDescription">
-          When the pandemic hit, I decided I would teach myself to play the
-          guitar. More than four years later now I still look forward to playing
-          every day.
+          Started teaching myself when the pandemic hit. Still play everyday.
         </p>
         <div className="guitarCard">
           <img className="guitarPicture" src={gin}></img>
@@ -33,8 +31,8 @@ function Hobbies() {
       <div className="hobbyCard">
         <h2 className="hobbyHeader">Bouldering</h2>
         <p className="hobbyDescription">
-          A far more recent hobby, I began bouldering in March 2024 and it is
-          some of the most fun I have had. I just recently climbed my first V4.
+          Started bouldering in March 2024. Just recently climbed my first V4.
+          Thinking I'll free solo El Cap at the end of the season.
         </p>
       </div>
       <button

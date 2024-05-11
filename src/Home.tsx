@@ -39,12 +39,12 @@ function Home() {
             FAVORITES
           </button>
           <button
-            className="photosButton"
+            className="randomButton"
             onClick={() => {
-              navigate("/Photos");
+              navigate("/Random");
             }}
           >
-            PHOTOS
+            RANDOM
           </button>
         </div>
         <div className="professionalPanel">

@@ -9,6 +9,14 @@ function Experience() {
       <h1 className="titleCard">Experience</h1>
       <div className="experienceCard">
         <h2 className="experienceTitle">
+          IGS Energy - Software Development Intern
+        </h2>
+        <ul className="experienceList">
+          <li className="experienceItem">Founded IGS Energy</li>
+        </ul>
+      </div>
+      <div className="experienceCard">
+        <h2 className="experienceTitle">
           Bohrer Lab - Undergraduate Research Assistant
         </h2>
         <ul className="experienceList">

@@ -16,10 +16,16 @@ import pilgrim from "../assets/pilgrim.png";
 import brown from "../assets/brownBird.png";
 
 import itysl from "../assets/ITYSL.png";
-import cher from "../assets/chernobyl.png";
+import bojack from "../assets/bojack.png";
 import smiling from "../assets/smiling.png";
 import mg from "../assets/midnight.png";
-import bb from "../assets/breakingBad.png";
+import arcane from "../assets/arcane2.png";
+
+import piranesi from "../assets/Books/piranesi.png";
+import circe from "../assets/Books/circe.png";
+import fifth from "../assets/Books/fifthScience.png";
+import sisyphus from "../assets/Books/sisyphus.png";
+import hail from "../assets/Books/hailMary.png";
 
 function Favorites() {
   const navigate = useNavigate();
@@ -43,18 +49,22 @@ function Favorites() {
         <img className="favoritesPicture" src={nirvana}></img>
         <img className="favoritesPicture" src={brown}></img>
       </div>
-      <h2 className="favoritesHeader">TV</h2>
+      <h2 className="favoritesHeader">Shows</h2>
       <div className="favoriteImages">
         <img className="favoritesPicture" src={mg}></img>
-        <img className="favoritesPicture" src={bb}></img>
+        <img className="favoritesPicture" src={bojack}></img>
         <img className="favoritesPicture" src={itysl}></img>
-        <img className="favoritesPicture" src={cher}></img>
+        <img className="favoritesPicture" src={arcane}></img>
         <img className="favoritesPicture" src={smiling}></img>
       </div>
-      <h2 className="favoritesHeader">Games</h2>
-      <div className="favoriteImages"></div>
       <h2 className="favoritesHeader">Books</h2>
-      <div className="favoriteImages"></div>
+      <div className="favoriteImages">
+        <img className="favoritesPicture" src={circe}></img>
+        <img className="favoritesPicture" src={piranesi}></img>
+        <img className="favoritesPicture" src={sisyphus}></img>
+        <img className="favoritesPicture" src={fifth}></img>
+        <img className="favoritesPicture" src={hail}></img>
+      </div>
       <button
         className="homeButton"
         onClick={() => {

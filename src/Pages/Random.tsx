@@ -1,10 +1,10 @@
-import "./Home.css";
+import "../Home.css";
 import { useNavigate } from "react-router-dom";
-function Photos() {
+function Random() {
   const navigate = useNavigate();
   return (
     <>
-      <h1 className="titleCard">PHOTOS</h1>
+      <h1 className="titleCard">RANDOM</h1>
       <button
         className="homeButton"
         onClick={() => {
@@ -17,4 +17,4 @@ function Photos() {
   );
 }
 
-export default Photos;
+export default Random;
