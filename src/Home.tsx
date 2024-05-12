@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
-import nickPic3 from "./assets/nickPic3.png";
+import nickPic3 from "./assets/daniel.png";
 import nickPic1 from "./assets/nickPic4.png";
 import nickPic2 from "./assets/nickPic2.png";
 
