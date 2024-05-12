@@ -1,4 +1,5 @@
 import "../Home.css";
+import "../Random.css";
 import { useNavigate } from "react-router-dom";
 import max from "../assets/max.png";
 
@@ -7,7 +8,7 @@ function Random() {
   return (
     <>
       <h1 className="titleCard">RANDOM</h1>
-      <img className="favoritesPicture" src={max}></img>
+      <img className="randomPic" src={max}></img>
       <button
         className="homeButton"
         onClick={() => {

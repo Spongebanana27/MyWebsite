@@ -1,0 +1,9 @@
+.randomPicture{
+  width: 50rem;
+  border-radius: 5%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}

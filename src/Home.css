@@ -43,15 +43,6 @@ Button Colors: #1a1a1a;
 }
 
 
-.favoritesPicture{
-  width: 12rem;
-  border-radius: 5%;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mainPicture:hover{
   animation: spin .1s linear infinite;
 }
