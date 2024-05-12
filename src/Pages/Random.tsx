@@ -1,5 +1,5 @@
 import "../Home.css";
-import "../Random.css";
+import "./Random.css";
 import { useNavigate } from "react-router-dom";
 import max from "../assets/max.png";
 
