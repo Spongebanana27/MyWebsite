@@ -32,7 +32,6 @@ function Hobbies() {
         <h2 className="hobbyHeader">Bouldering</h2>
         <p className="hobbyDescription">
           Started bouldering in March 2024. Just recently climbed my first V4.
-          Thinking I'll free solo El Cap at the end of the season.
         </p>
       </div>
       <button
