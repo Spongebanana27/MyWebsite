@@ -1,14 +1,14 @@
 import "../Home.css";
 import "./Random.css";
 import { useNavigate } from "react-router-dom";
-import max from "../assets/max.png";
+import Board from "../games/ticTacToe/TicTacToe";
 
 function Random() {
   const navigate = useNavigate();
   return (
     <>
       <h1 className="titleCard">RANDOM</h1>
-      <img className="randomPic" src={max}></img>
+      <Board></Board>
       <button
         className="homeButton"
         onClick={() => {

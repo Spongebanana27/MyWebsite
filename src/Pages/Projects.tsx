@@ -18,9 +18,7 @@ function Projects() {
     <>
       <h1 className="titleCard">PROJECTS</h1>
       <div className="projectCard">
-        <h2 className="projectHeader">
-          This Website - Typescript / React.js / Vite
-        </h2>
+        <h2 className="projectHeader">This Website - Typescript / React.js</h2>
         <ul className="projectList">
           <li className="projectItem">Designed and built this website</li>
         </ul>

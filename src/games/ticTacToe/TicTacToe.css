@@ -1,0 +1,28 @@
+.square{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+    border-color: var(--titleColor);
+    border-radius: 0rem;
+    color: var(--titleColor);
+}
+
+.square:hover {
+  filter: drop-shadow(0 0 4px var(--buttonHoverColor));
+}
+
+.board-row{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restart-button{
+    margin: 1rem;
+}
+
+.status{
+    margin: 1rem;
+    color: var(--defaultTextColor)
+}
