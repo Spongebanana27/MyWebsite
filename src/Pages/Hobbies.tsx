@@ -31,7 +31,7 @@ function Hobbies() {
       <div className="hobbyCard">
         <h2 className="hobbyHeader">Bouldering</h2>
         <p className="hobbyDescription">
-          Started bouldering in March 2024. Just recently climbed my first V4.
+          Started bouldering in March 2024. Just recently climbed my first V5.
         </p>
       </div>
       <button
