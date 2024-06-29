@@ -3,7 +3,7 @@ import "./Random.css";
 import { useNavigate } from "react-router-dom";
 import Board from "../games/ticTacToe/TicTacToe";
 import Atom from "../assets/ImgProcessing/Atom.mp4";
-import SinWaves from "../assetsImgProcessing/SinWaves.mp4";
+import SinWaves from "../assets/ImgProcessing/SinWaves.mp4";
 
 function Random() {
   const navigate = useNavigate();
