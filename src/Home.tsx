@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <>
-      <h1 className="titleCard">THE NICK EVANS EXPERIENCE</h1>
+      <h1 className="titleCard">SOMETHING SOMETHING NICK EVANS IDK</h1>
       <img className="mainPicture" src={nickPic1}></img>
       <img className="mainPicture middlePicture" src={nickPic3}></img>
       <img className="mainPicture" src={nickPic2}></img>
@@ -21,7 +21,7 @@ function Home() {
       </p>
       <div className="panelContainer">
         <div className="funPanel">
-          <h2 className="panelHeader">FUN NICK</h2>
+          <h2 className="panelHeader">UH FUN NICK</h2>
           <button
             className="hobbiesButton"
             onClick={() => {
@@ -48,7 +48,7 @@ function Home() {
           </button>
         </div>
         <div className="professionalPanel">
-          <h2 className="panelHeader">WORK NICK</h2>
+          <h2 className="panelHeader">WORK NICK OR SOMETHING</h2>
           <div>
             <button
               className="resumeButton"

@@ -2,12 +2,14 @@ import "../Home.css";
 import "./Projects.css";
 import { useNavigate } from "react-router-dom";
 
-import original from "../assets/ImgProcessing/Buddy.jpeg";
 import quantized from "../assets/ImgProcessing/Buddy.jpeg_Quantized_32.jpeg";
 import dithered from "../assets/ImgProcessing/dithered.png";
 import kuwahara from "../assets/ImgProcessing/kuwahara.png";
 import pixels from "../assets/ImgProcessing/pixels.png";
-import sharpened from "../assets/ImgProcessing/sharpened.5.png";
+
+import Sphere from "../assets/UnityStuff/Sphere.mp4";
+import Torus from "../assets/UnityStuff/Torus.mp4";
+import Ripple from "../assets/UnityStuff/Ripple.mp4";
 
 import bigPerc from "../assets/Tiles/perc.25.png";
 import smallPerc from "../assets/Tiles/percSmall.png";
@@ -35,12 +37,27 @@ function Projects() {
             Pixelation shaders in OpenGL
           </li>
         </ul>
-        <img src={original} className="buddyImage"></img>
         <img src={kuwahara} className="buddyImage"></img>
         <img src={quantized} className="buddyImage"></img>
         <img src={dithered} className="buddyImage"></img>
         <img src={pixels} className="buddyImage"></img>
-        <img src={sharpened} className="buddyImage"></img>
+      </div>
+      <div className="projectCard">
+        <h2 className="projectHeader">Unity Renders - C# / HLSL</h2>
+        <ul className="projectList">
+          <li className="projectItem">
+            Made these guys idk what to tell you
+          </li>
+        </ul>
+        <video className="unityRender" autoPlay loop muted>
+          <source src={Ripple} type="video/mp4" />
+        </video>
+        <video className="unityRender" autoPlay loop muted>
+          <source src={Sphere} type="video/mp4" />
+        </video>
+        <video className="unityRender" autoPlay loop muted>
+          <source src={Torus} type="video/mp4" />
+        </video>
       </div>
       <div className="projectCard">
         <h2 className="projectHeader">Legend of Zelda NES - C# / .NET / Git</h2>
