@@ -1,6 +1,5 @@
 import "../Home.css";
-import "./Projects.css";
-import { useNavigate } from "react-router-dom";
+import "./UpdatedProjects.css";
 
 import quantized from "../assets/ImgProcessing/Buddy.jpeg_Quantized_32.jpeg";
 import dithered from "../assets/ImgProcessing/dithered.png";
@@ -15,16 +14,9 @@ import bigPerc from "../assets/Tiles/perc.25.png";
 import smallPerc from "../assets/Tiles/percSmall.png";
 
 function Projects() {
-  const navigate = useNavigate();
   return (
     <>
-      <h1 className="titleCard">Projects</h1>
-      <div className="projectCard">
-        <h2 className="projectHeader">This Website - Typescript / React.js</h2>
-        <ul className="projectList">
-          <li className="projectItem">Designed and built this website</li>
-        </ul>
-      </div>
+      <h1 className="titleCardLine1">Projects</h1>
       <div className="projectCard">
         <h2 className="projectHeader">Image Processing - OpenGL / Python</h2>
         <ul className="projectList">
@@ -112,14 +104,6 @@ function Projects() {
           </li>
         </ul>
       </div>
-      <button
-        className="homeButton"
-        onClick={() => {
-          navigate("../");
-        }}
-      >
-        RETURN HOME
-      </button>
     </>
   );
 }

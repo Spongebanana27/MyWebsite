@@ -9,26 +9,23 @@ function Home() {
 
   return (
     <>
-      <h1 className="titleCard">SOMETHING SOMETHING NICK EVANS IDK</h1>
+      <h1 className="titleCard">Hey! I'm Nick.</h1>
       <img className="mainPicture" src={nickPic1}></img>
       <img className="mainPicture middlePicture" src={nickPic3}></img>
       <img className="mainPicture" src={nickPic2}></img>
       <p className="paragraph">
-        Nick Evans is a 21 year old student at The Ohio State University,
-        persuing a Bachelors degree in Computer Science & Engineering with a
-        minor in Mathematics, currently a Software Development Intern at IGS
-        Energy.
+        I am a problem solver with a passion for learning new things. I am majoring in Computer Science & Engineering with a minor in Mathematics at The Ohio State University.
       </p>
       <div className="panelContainer">
         <div className="funPanel">
-          <h2 className="panelHeader">UH FUN NICK</h2>
+          <h2 className="panelHeader">About Me</h2>
           <button
             className="hobbiesButton"
             onClick={() => {
               navigate("/Hobbies");
             }}
           >
-            HOBBIES
+            Hobbies
           </button>
           <button
             className="favoritesButton"
@@ -36,7 +33,7 @@ function Home() {
               navigate("/Favorites");
             }}
           >
-            FAVORITES
+            Favorites
           </button>
           <button
             className="randomButton"
@@ -44,11 +41,11 @@ function Home() {
               navigate("/Random");
             }}
           >
-            RANDOM
+            Random
           </button>
         </div>
         <div className="professionalPanel">
-          <h2 className="panelHeader">WORK NICK OR SOMETHING</h2>
+          <h2 className="panelHeader">My Work</h2>
           <div>
             <button
               className="resumeButton"
@@ -56,7 +53,7 @@ function Home() {
                 navigate("/Resume");
               }}
             >
-              RESUME
+              Resume
             </button>
             <button
               className="projectsButton"
@@ -64,7 +61,7 @@ function Home() {
                 navigate("/Projects");
               }}
             >
-              PROJECTS
+              Projects
             </button>
             <button
               className="experienceButton"
@@ -72,7 +69,7 @@ function Home() {
                 navigate("/Experience");
               }}
             >
-              EXPERIENCE
+              Experience
             </button>
           </div>
         </div>

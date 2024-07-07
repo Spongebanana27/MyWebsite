@@ -1,0 +1,38 @@
+
+.aboutCard{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutCardLeft{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    width: 50%;
+
+}
+
+.skillCard{
+    width: 10%;
+    height: 12%;
+}
+
+.skillPic{
+    width: 70%;
+    height: 70%;
+}
+
+.aboutCardRight{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    width: 50%;
+}

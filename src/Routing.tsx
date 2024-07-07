@@ -7,12 +7,13 @@ import Experience from "./Pages/Experience.tsx";
 import Favorites from "./Pages/Favorites.tsx";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import UpdatedHome from "./UpdatedHome.tsx";
 
 function Routing() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<UpdatedHome />} />
         <Route path="/Hobbies" element={<Hobbies />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Resume" element={<Resume />} />
