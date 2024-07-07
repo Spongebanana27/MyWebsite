@@ -16,7 +16,7 @@ import smallPerc from "../assets/Tiles/percSmall.png";
 function Projects() {
   return (
     <>
-      <h1 className="titleCardLine1">Projects</h1>
+      <h1 className="sectionHeader">Projects</h1>
       <div className="projectCard">
         <h2 className="projectHeader">Image Processing - OpenGL / Python</h2>
         <ul className="projectList">

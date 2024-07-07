@@ -57,6 +57,30 @@ Button Colors: #1a1a1a;
   overflow: hidden;
 }
 
+.sectionHeader{
+  position: absolute;
+  content: '';
+  border-bottom: 18px solid #ac5cda;
+  width: 22.5rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 6.3rem;
+  margin-bottom: 10rem;
+  z-index: -1;
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  width: fit-content;
+  height: auto;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
 .homeButton{
   display: block;
   margin: 2rem auto; 

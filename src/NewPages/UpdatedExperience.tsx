@@ -4,7 +4,7 @@ import "./UpdatedExperience.css";
 function Experience() {
   return (
     <>
-      <h1 className="titleCardLine1">Experience</h1>
+      <h1 className="sectionHeader">Experience</h1>
       <div className="experienceCard">
         <h2 className="experienceTitle">
           IGS Energy - Software Development Intern

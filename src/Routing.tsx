@@ -1,4 +1,3 @@
-import Home from "./Home.tsx";
 import Hobbies from "./Pages/Hobbies.tsx";
 import Resume from "./Pages/Resume.tsx";
 import Projects from "./Pages/Projects.tsx";
