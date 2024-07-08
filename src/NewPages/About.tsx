@@ -1,7 +1,6 @@
 import "./About.css";
 import cs from "../assets/Skills/csn.png";
 import cp from "../assets/Skills/c++.png";
-import git from "../assets/Skills/git.png";
 import js from "../assets/Skills/javascript.png";
 import net from "../assets/Skills/net.png";
 import python from "../assets/Skills/python.png";
