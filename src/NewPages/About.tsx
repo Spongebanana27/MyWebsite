@@ -23,15 +23,28 @@ function About() {
               <img src={nickPic} className="nickPic"></img>
             </div>
             <div className="aboutBlurb">
-              I am a problem solver and a passionate learner. While my main
-              areas of interest are in 3D graphics and full stack web
-              development, I love to learn new things, having self-taught
-              various topics such as neural networks, game design, and 2D shader
-              art. When I am not coding, I enjoy reading, playing guitar and
-              rock climbing.
+              I am a problem solver and passionate learner. While my main areas
+              of interest are in 3D graphics and full stack web development, I
+              love to learn new things, having self-taught various topics such
+              as neural networks, game design, and 2D shader art. When I am not
+              coding, I enjoy reading, playing guitar and rock climbing.
             </div>
           </div>
           <div className="aboutCardRight">
+            <div className="skillColumn">
+              <div className="skillCard">
+                <img src={opengl} className="skillPic"></img>
+                <div className="skillSub">OPENGL</div>
+              </div>
+              <div className="skillCard">
+                <img src={unity} className="skillPic"></img>
+                <div className="skillSub">UNITY</div>
+              </div>
+              <div className="skillCard">
+                <img src={net} className="skillPic"></img>
+                <div className="skillSub">.NET</div>
+              </div>
+            </div>
             <div className="skillColumn">
               <div className="skillCard">
                 <img src={cp} className="skillPic"></img>
@@ -52,20 +65,6 @@ function About() {
             </div>
             <div className="skillColumn">
               <div className="skillCard">
-                <img src={opengl} className="skillPic"></img>
-                <div className="skillSub">OPENGL</div>
-              </div>
-              <div className="skillCard">
-                <img src={unity} className="skillPic"></img>
-                <div className="skillSub">UNITY</div>
-              </div>
-              <div className="skillCard">
-                <img src={git} className="skillPic"></img>
-                <div className="skillSub">GIT</div>
-              </div>
-            </div>
-            <div className="skillColumn">
-              <div className="skillCard">
                 <img src={sql} className="skillPic"></img>
                 <div className="skillSub">SQL</div>
               </div>
@@ -76,10 +75,6 @@ function About() {
               <div className="skillCard">
                 <img src={graphql} className="skillPic"></img>
                 <div className="skillSub">GRAPHQL</div>
-              </div>
-              <div className="skillCard">
-                <img src={net} className="skillPic"></img>
-                <div className="skillSub">.NET</div>
               </div>
             </div>
           </div>
