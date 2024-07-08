@@ -10,7 +10,18 @@ function Experience() {
           IGS Energy - Software Development Intern
         </h2>
         <ul className="experienceList">
-          <li className="experienceItem">Founded IGS Energy</li>
+          <li className="experienceItem">
+            Embedded in team as a Junior Full-Stack Developer
+          </li>
+          <li className="experienceItem">
+            Built and maintained front-end features using React
+          </li>
+          <li className="experienceItem">
+            Implemented backend functionalities using C# and GraphQL
+          </li>
+          <li className="experienceItem">
+            Utilized SQL for database management and data retrieval
+          </li>
         </ul>
       </div>
       <div className="experienceCard">

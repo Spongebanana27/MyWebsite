@@ -37,7 +37,7 @@ function Projects() {
       <div className="projectCard">
         <h2 className="projectHeader">Unity Renders - C# / HLSL</h2>
         <ul className="projectList">
-          <li className="projectItem">Made these guys idk what to tell you</li>
+          <li className="projectItem">Made these guys with math</li>
         </ul>
         <video className="unityRender" autoPlay loop muted>
           <source src={Ripple} type="video/mp4" />
