@@ -62,7 +62,7 @@ h1.aboutHeader{
 .skillSub{
     text-align: center;
     font-size: small;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .skillCard{
@@ -87,9 +87,8 @@ h1.aboutHeader{
 }
 
 .skillPic{
-    width: 30%;
-    height: 50%;
-    margin-top: 8%;
+    width: 35%;
+    margin-top: 5%;
     margin-bottom: 4%;
 }
 
