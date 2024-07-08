@@ -3,8 +3,8 @@ import "./UpdatedExperience.css";
 
 function Experience() {
   return (
-    <>
-      <h1 className="sectionHeader">Experience</h1>
+    <div className="experienceSection">
+      <h1 className="experienceHeader sectionHeader">Experience</h1>
       <div className="experienceCard">
         <h2 className="experienceTitle">
           IGS Energy - Software Development Intern
@@ -32,7 +32,7 @@ function Experience() {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 

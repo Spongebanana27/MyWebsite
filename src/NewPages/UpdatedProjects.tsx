@@ -15,7 +15,7 @@ import smallPerc from "../assets/Tiles/percSmall.png";
 
 function Projects() {
   return (
-    <>
+    <div className="projectsSection">
       <h1 className="sectionHeader">Projects</h1>
       <div className="projectCard">
         <h2 className="projectHeader">Image Processing - OpenGL / Python</h2>
@@ -37,9 +37,7 @@ function Projects() {
       <div className="projectCard">
         <h2 className="projectHeader">Unity Renders - C# / HLSL</h2>
         <ul className="projectList">
-          <li className="projectItem">
-            Made these guys idk what to tell you
-          </li>
+          <li className="projectItem">Made these guys idk what to tell you</li>
         </ul>
         <video className="unityRender" autoPlay loop muted>
           <source src={Ripple} type="video/mp4" />
@@ -104,7 +102,7 @@ function Projects() {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 

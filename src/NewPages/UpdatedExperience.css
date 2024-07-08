@@ -1,3 +1,12 @@
+div.experienceSection{
+  margin-bottom: 0rem;
+}
+
+h1.experienceHeader{
+  top: 0rem;
+  margin-bottom: 2rem;
+}
+
 .experienceList{
   list-style-type: none;
   padding-left: 0;

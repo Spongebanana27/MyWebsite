@@ -16,7 +16,7 @@ function About() {
   return (
     <>
       <div className="aboutSection">
-        <h1 className="sectionHeader">About</h1>
+        <h1 className="aboutHeader sectionHeader">About</h1>
         <div className="aboutCard">
           <div className="aboutCardLeft">
             <div className="nickPhoto">
