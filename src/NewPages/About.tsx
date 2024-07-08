@@ -26,8 +26,8 @@ function About() {
               I am a problem solver and a passionate learner. While my main
               areas of interest are in 3D graphics and full stack web
               developement, I love to learn new things, having self-taught
-              various topics such as neural networks, game design, and 2D
-              shaders. When I am not coding, I enjoy reading, playing guitar and
+              various topics such as neural networks, game design, and 2D shader
+              art. When I am not coding, I enjoy reading, playing guitar and
               rock climibing.
             </div>
           </div>
