@@ -15,7 +15,7 @@ import nickPic from "../assets/nickPic4.png";
 function About() {
   return (
     <>
-      <div className="aboutSection">
+      <div className="aboutSection" id="about">
         <h1 className="aboutHeader sectionHeader">About</h1>
         <div className="aboutCard">
           <div className="aboutCardLeft">
@@ -27,8 +27,8 @@ function About() {
               areas of interest are in 3D graphics and full stack web
               developement, I love to learn new things, having self-taught
               various topics such as neural networks, game design, and 2D
-              shaders. When I am not coding, I enjoy reading, playing guitar,
-              and rock climibing.
+              shaders. When I am not coding, I enjoy reading, playing guitar and
+              rock climibing.
             </div>
           </div>
           <div className="aboutCardRight">

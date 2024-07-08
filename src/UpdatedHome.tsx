@@ -12,6 +12,9 @@ function UpdatedHome() {
         <div className="titleCard">
           <div className="titleCardLine1">Hey! I'm Nick.</div>
           <div className="titleCardLine2">I am a CSE student at OSU.</div>
+          <a className="frontButton" href="#about">
+            View my work
+          </a>
         </div>
       </div>
       <About />
