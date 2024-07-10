@@ -13,9 +13,6 @@ function Contact() {
           >
             LinkedIn
           </a>
-          <a className="link" href="https://github.com/Spongebanana27">
-            GitHub
-          </a>
         </div>
       </div>
     </>
