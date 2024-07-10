@@ -93,10 +93,6 @@ function Projects() {
             and update student data
           </li>
           <li className="projectItem">
-            Created Makefiles and Header files to ensure efficiency and
-            maintainability
-          </li>
-          <li className="projectItem">
             Used Valgrind and safe programming practices to ensure no memory
             leaks or other vulnerabilities
           </li>
