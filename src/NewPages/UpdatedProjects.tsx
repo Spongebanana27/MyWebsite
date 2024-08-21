@@ -1,11 +1,13 @@
 import "../Home.css";
 import "./UpdatedProjects.css";
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
 import quantized from "../assets/ImgProcessing/Buddy.jpeg_Quantized_32.jpeg";
 import dithered from "../assets/ImgProcessing/dithered.png";
 import kuwahara from "../assets/ImgProcessing/kuwahara.png";
 import pixels from "../assets/ImgProcessing/pixels.png";
-import ht from "../assets/ImgProcessing/Halftone.png";
+import ht from "../assets/ImgProcessing/Capture.png";
 import oil from "../assets/ImgProcessing/Oil.png";
 
 import Sphere from "../assets/UnityStuff/Sphere.mp4";
@@ -36,11 +38,30 @@ function Projects() {
             Pixelation shaders in OpenGL
           </li>
         </ul>
+        {/*<div className="slideshowContainer">
+          <Slide>
+              <div className="each-slide-effect">
+                  <div style={{ 'backgroundImage': `url(${kuwahara})` }}>
+                      <span></span>
+                  </div>
+              </div>
+              <div className="each-slide-effect">
+                  <div style={{ 'backgroundImage': `url(${quantized})` }}>
+                      <span></span>
+                  </div>
+              </div>
+              <div className="each-slide-effect">
+                  <div style={{ 'backgroundImage': `url(${dithered})` }}>
+                      <span></span>
+                  </div>
+              </div>
+          </Slide>
+        </div>*/}
         <img src={kuwahara} className="buddyImage"></img>
         <img src={quantized} className="buddyImage"></img>
         <img src={dithered} className="buddyImage"></img>
-        <img src={pixels} className="buddyImage"></img>
         <img src={ht} className="buddyImage"></img>
+        <img src={pixels} className="buddyImage"></img>
         <img src={oil} className="buddyImage"></img>
       </div>
       <div className="projectCard">
