@@ -1,4 +1,8 @@
 
+div.projectsSection{
+  margin-bottom: 0rem;
+}
+
 .buddyImage{
   width: 40%;
   display: inline-block;
@@ -38,8 +42,8 @@
 }
 
 .unityRender{
-  width: 30%;
-  border-radius: 5%;
+  width: 25%;
+  border-radius: 0%;
   display: inline-block;
   vertical-align: middle;
   margin-left: 1rem;
@@ -58,7 +62,7 @@
 
 
 .percPicture{
-  width: 30rem;
+  width: 20%;
   border-radius: 5%;
   display: inline-block;
   vertical-align: middle;

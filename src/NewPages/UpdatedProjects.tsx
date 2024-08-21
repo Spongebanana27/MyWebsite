@@ -20,7 +20,7 @@ import playlist2 from "../assets/Emotify/playlist2cropped.png"
 
 function Projects() {
   return (
-    <>
+    <div className="projectsSection">
       <h1 className="sectionHeader">Projects</h1>
       <div className="projectCard">
         <h2 className="projectHeader">Image Processing - OpenGL / Python</h2>
@@ -116,10 +116,6 @@ function Projects() {
           <li className="projectItem">
             Utilized concepts such as linked lists and structs to store, search,
             and update student data
-          </li>
-          <li className="projectItem">
-            Created Makefiles and Header files to ensure efficiency and
-            maintainability
           </li>
           <li className="projectItem">
             Used Valgrind and safe programming practices to ensure no memory

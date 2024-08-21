@@ -5,6 +5,15 @@ Button Colors: #1a1a1a;
 #b2b7f1;
 */
 
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ #down {
+  margin-top: 100%;
+  padding-bottom: 25%;
+ } 
+
 :root {
 
   --backgroundColor:#242424;
@@ -19,7 +28,6 @@ Button Colors: #1a1a1a;
   --buttonHoverColor: #d1cbae;
 
   /*font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;*/
-  font-family: Arial, Helvetica, sans-serif;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -67,10 +75,11 @@ Button Colors: #1a1a1a;
   border-bottom: 18px solid #ac5cda;
   width: 22.5rem;
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: 6.3rem;
-  margin-bottom: 10rem;
+  top: 3.5rem;
+  margin-bottom: 6rem;
   z-index: -1;
   position: relative;
   align-self: center;
@@ -187,20 +196,34 @@ h1 {
   margin-bottom : 2rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6rem 1.3rem;
-  font-size: 1rem;
-  font-weight: 500;
+
+.frontButton {
+  border-radius: 2px;
+  border: 2px solid #ac5cda;
+  font-size: 1.4rem;
+  font-weight: 400;
   font-family: inherit;
-  background-color: var(--buttonColor);
+  background-color: var(--backgroundColor);
   cursor: pointer;
   transition: border-color 0.5s;
-  width: 15rem;
-  height: 3rem;
+
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+
+  width: 14rem;
+  height: 2rem;
+
+  padding-bottom: .5%;
+
+  margin-top: 1rem;
+  color: #ac5cda;
 }
-button:hover {
-  border-color: var(--buttonHoverColor);
-  filter: drop-shadow(0 0 5px var(--buttonHoverColor));
+.frontButton:hover {
+  border-color: #ac5cda;
+  filter: drop-shadow(0 0 5px #ac5cda);
 }
