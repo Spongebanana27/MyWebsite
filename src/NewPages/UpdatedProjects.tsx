@@ -123,7 +123,7 @@ function Projects() {
           </li>
         </ul>
       </div>*/}
-    </>
+    </div>
   );
 }
 

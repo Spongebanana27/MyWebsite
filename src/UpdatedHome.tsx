@@ -21,7 +21,7 @@ function UpdatedHome() {
       <UpdatedProjects />
       <UpdatedExperience />
       <Contact />
-    </>
+    </div>
   );
 }
 
