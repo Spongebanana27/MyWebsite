@@ -1,6 +1,5 @@
 import "../Home.css";
 import "./UpdatedProjects.css";
-import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 import quantized from "../assets/ImgProcessing/Buddy.jpeg_Quantized_32.jpeg";
@@ -17,10 +16,10 @@ import Ripple from "../assets/UnityStuff/Ripple.mp4";
 import bigPerc from "../assets/Tiles/perc.25.png";
 import smallPerc from "../assets/Tiles/percSmall.png";
 
-import frontPage from "../assets/Emotify/frontpagecropped.png"
-import emotion from "../assets/Emotify/emotionscropped.png"
-import playlist1 from "../assets/Emotify/playlist1cropped.png"
-import playlist2 from "../assets/Emotify/playlist2cropped.png"
+import frontPage from "../assets/Emotify/frontpage2.png"
+import emotion from "../assets/Emotify/emotions2.png"
+import playlist1 from "../assets/Emotify/playlist12.png"
+import playlist2 from "../assets/Emotify/playlist22.png"
 
 function Projects() {
   return (
@@ -77,10 +76,10 @@ function Projects() {
             Collaborated with UI/UX designers to build a quality user experience
           </li>
         </ul>
-        <img src={frontPage} className="buddyImage"></img>
-        <img src={emotion} className="buddyImage"></img>
-        <img src={playlist1} className="buddyImage"></img>
-        <img src={playlist2} className="buddyImage"></img>
+        <img src={frontPage} className="emotifyImage"></img>
+        <img src={emotion} className="emotifyImage"></img>
+        <img src={playlist1} className="emotifyImage"></img>
+        <img src={playlist2} className="emotifyImage"></img>
       </div>
       <div className="projectCard">
         <h2 className="projectHeader">Unity Renders - C# / HLSL</h2>
