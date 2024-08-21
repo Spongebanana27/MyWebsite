@@ -10,7 +10,8 @@ import sql from "../assets/Skills/sql.png"
 import react from "../assets/Skills/react.png"
 import opengl from "../assets/Skills/openGL.png"
 import graphql from "../assets/Skills/gql.png"
-import nickPic from "../assets/nickPic4.png"
+//import nickPic from "../assets/nickPic4.png"
+import nickPic from "../assets/Me/unnamed (1).jpg"
 
 function About() {
   return (

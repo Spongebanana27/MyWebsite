@@ -37,6 +37,10 @@ Button Colors: #1a1a1a;
   
 }
 
+.page{
+  margin-bottom: 5rem;
+}
+
 .hero{
   position: relative;
   display: flex;

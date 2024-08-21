@@ -13,6 +13,11 @@ import Ripple from "../assets/UnityStuff/Ripple.mp4";
 import bigPerc from "../assets/Tiles/perc.25.png";
 import smallPerc from "../assets/Tiles/percSmall.png";
 
+import frontPage from "../assets/Emotify/frontpagecropped.png"
+import emotion from "../assets/Emotify/emotionscropped.png"
+import playlist1 from "../assets/Emotify/playlist1cropped.png"
+import playlist2 from "../assets/Emotify/playlist2cropped.png"
+
 function Projects() {
   return (
     <>
@@ -35,10 +40,28 @@ function Projects() {
         <img src={pixels} className="buddyImage"></img>
       </div>
       <div className="projectCard">
+        <h2 className="projectHeader">Emotify - Typescript / React</h2>
+        <ul className="projectList">
+          <li className="projectItem">
+            Developed a web app to generate custom spotify playlists based on selected emotions and tastes
+          </li>
+          <li className="projectItem">
+            Utilized Spotify’s Web API to request user listening history and create playlists
+          </li>
+          <li className="projectItem">
+            Collaborated with UI/UX designers to build a quality user experience
+          </li>
+        </ul>
+        <img src={frontPage} className="buddyImage"></img>
+        <img src={emotion} className="buddyImage"></img>
+        <img src={playlist1} className="buddyImage"></img>
+        <img src={playlist2} className="buddyImage"></img>
+      </div>
+      <div className="projectCard">
         <h2 className="projectHeader">Unity Renders - C# / HLSL</h2>
         <ul className="projectList">
           <li className="projectItem">
-            Made these guys idk what to tell you
+            Built 3D animations using the Unity Engine
           </li>
         </ul>
         <video className="unityRender" autoPlay loop muted>
@@ -83,7 +106,7 @@ function Projects() {
         <img src={bigPerc} className="percPicture"></img>
         <img src={smallPerc} className="percPicture"></img>
       </div>
-      <div className="projectCard">
+      {/*<div className="projectCard">
         <h2 className="projectHeader">Student Grade Management Software - C</h2>
         <ul className="projectList">
           <li className="projectItem">
@@ -103,7 +126,7 @@ function Projects() {
             leaks or other vulnerabilities
           </li>
         </ul>
-      </div>
+      </div>*/}
     </>
   );
 }

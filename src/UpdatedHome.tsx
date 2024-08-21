@@ -6,7 +6,7 @@ import "./UpdatedHome.css";
 function UpdatedHome() {
 
   return (
-    <>
+    <div className="page">
       <div className="hero">
       <div className="canvas" ></div>
       <div className="titleCard">
@@ -17,7 +17,7 @@ function UpdatedHome() {
       <About/>
       <UpdatedProjects/>
       <UpdatedExperience/>
-    </>
+    </div>
   );
 }
 
