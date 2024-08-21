@@ -5,6 +5,8 @@ import quantized from "../assets/ImgProcessing/Buddy.jpeg_Quantized_32.jpeg";
 import dithered from "../assets/ImgProcessing/dithered.png";
 import kuwahara from "../assets/ImgProcessing/kuwahara.png";
 import pixels from "../assets/ImgProcessing/pixels.png";
+import ht from "../assets/ImgProcessing/Halftone.png";
+import oil from "../assets/ImgProcessing/Oil.png";
 
 import Sphere from "../assets/UnityStuff/Sphere.mp4";
 import Torus from "../assets/UnityStuff/Torus.mp4";
@@ -33,6 +35,8 @@ function Projects() {
         <img src={quantized} className="buddyImage"></img>
         <img src={dithered} className="buddyImage"></img>
         <img src={pixels} className="buddyImage"></img>
+        <img src={ht} className="buddyImage"></img>
+        <img src={oil} className="buddyImage"></img>
       </div>
       <div className="projectCard">
         <h2 className="projectHeader">Unity Renders - C# / HLSL</h2>
