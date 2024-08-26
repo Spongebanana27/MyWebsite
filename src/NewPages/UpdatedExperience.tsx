@@ -10,10 +10,20 @@ function Experience() {
           IGS Energy - Software Development Intern
         </h2>
         <ul className="experienceList">
-          <li className="experienceItem">Took on the responsibilities of a Junior Developer on an agile team</li>
-          <li className="experienceItem">Implemented UI Components to facilitate the management of over 25000 subscribers</li> 
-          <li className="experienceItem">Maintained and expanded API’s with C#, EFCore and GraphQL</li> 
-          <li className="experienceItem">Utilized SQL to create automated reports to ensure data integrity is maintained</li> 
+          <li className="experienceItem">
+            Took on the responsibilities of a Junior Developer on an agile team
+          </li>
+          <li className="experienceItem">
+            Implemented UI Components to facilitate the management of thousands
+            of subscribers
+          </li>
+          <li className="experienceItem">
+            Maintained and expanded API’s with C#, EFCore and GraphQL
+          </li>
+          <li className="experienceItem">
+            Utilized SQL to create automated reports to ensure data integrity is
+            maintained
+          </li>
         </ul>
       </div>
       <div className="experienceCard">
